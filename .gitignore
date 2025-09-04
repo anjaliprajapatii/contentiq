@@ -1,0 +1,30 @@
+# --- Frontend (Next.js) ---
+.next/
+node_modules/
+/.env*.local
+.env
+out/
+dist/
+
+# --- Backend (Spring Boot) ---
+**/target/
+**/*.jar
+**/*.war
+*.class
+*.log
+.mvn/
+mvnw*
+mvnw.cmd
+.mvn/wrapper/maven-wrapper.jar
+**/application.properties
+**/application-dev.properties
+
+# --- IDE ---
+.vscode/
+.idea/
+*.iml
+*.swp
+.DS_Store
+
+# --- OS ---
+Thumbs.db
